@@ -1,3 +1,30 @@
 body{
   background-color: powderblue;
 }
+#total{
+  height: 100%;
+  width: 100%;
+  background-color: lightgreen;
+}
+#menu{
+  flex: 1;
+  height: 1920px;
+  width: 18%;
+  background-color: pink;
+  border: solid;
+  float: left;
+}
+#nav{
+  flex: 1;
+  height: 50%;
+  border: solid;
+  background-color: white;
+  text-align: center;
+}
+#content{
+  text-align: left;
+  float: right;
+  width:80%;
+  height: 1920px;
+  border: solid;
+}
