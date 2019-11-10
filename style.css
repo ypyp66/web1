@@ -8,12 +8,13 @@ body{
 }
 #menu{
   flex: 1;
-  height: 1920px;
+  height: 300px;
   width: 19.8%;
   background-color: pink;
   float: left;
   border: solid 1px;
-  overflow: visible;
+  text-align: center;
+  line-height: 200%
 }
 #nav{
   flex: 1;
