@@ -9,10 +9,11 @@ body{
 #menu{
   flex: 1;
   height: 1920px;
-  width: 18%;
+  width: 19.8%;
   background-color: pink;
-  border: solid;
   float: left;
+  border: solid 1px;
+  overflow: visible;
 }
 #nav{
   flex: 1;
@@ -26,5 +27,5 @@ body{
   float: right;
   width:80%;
   height: 1920px;
-  border: solid;
+  overflow: scroll;
 }
