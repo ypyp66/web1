@@ -16,8 +16,8 @@ body{
 .menu a{ /*메뉴의 글자 (a)의 속성*/
   background-color: pink;
   color:#cc00ff;
-  display: inline-block;
-  padding: 8px;
+  display: inline-block; /*블럭으로 나타나게 해줌*/
+  padding: 8px; /*상하좌우 공간을 만듦*/
 }
 .menu a:hover{/*메뉴의 글자 (a)의 hover(마우스를 갖다댔을 때)속성*/
   background-color:#ffccff;
