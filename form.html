@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form태그연습</title>
+  </head>
+  <body>
+    <p><form action="https://localhost/login.php"> <!--submit을 누르면 액션url로 이동 -->
+      <p>
+        <label>아이디: <input id="id_txt"type="text" name="id" value=""></label>
+        <!--label을 전체에 씌우면 아이디: 만 클릭해도 자동으로 커서가 깜빡임-->
+      </p><!--label for는 어떤것의 label인지 나타내줌 -->
+      <input type="hidden" name="hide" value="nope"><!--아무값도 없이 확인을 눌렀을때  -->
+      <p>
+        <label for="pw">비밀번호: <input id="pw"type="password" name="pwd" value=""></label>
+      </p>
+      <p>
+        <label>
+        textarea: <textarea name="name" rows="3" cols="50"></textarea>
+        </label>
+      </p>
+      <input type="hidden" name="hide" value="nope">
+      <input type="submit" name="" value="로그인">
+      <input type="reset" name="" value="리셋"><p>
+    </form>
+    <!--선택, 다중선택은 multiple 추가-->
+    <form action="https://localhost/login.php">
+      <p>
+      <select class="" name="color">
+        <option value="red">빨간색</option>
+        <option value="black">검정색</option>
+        <option value="blue">파란색</option><p>
+      </select>
+      </p>
+    </form>
+    <!--체크박스-->
+    <form action="https://localhost/login.php">
+      <p>
+      <input type="checkbox" name="color" value="red">붉은색
+      <input type="checkbox" name="color" value="black">검정색
+      </P>
+    </form>
+    <!--자바스크립트-->
+    <form action="https://localhost/login.php">
+      <p>
+      <button type="button" name="button" onclick="alert('hello world')">눌러보세요</button>
+      </p>
+    </form>
+    <!-- 파일 업로드-->
+    <form action="D:\파일들\유틸\웹\" method="post" enctype="multipart/form-data">
+      <p>
+      <input type="file" name="" value="">
+      <input type="submit" name="" value="업로드">
+      </p>
+    </form>
+    <address class="">
+      이름: 박연빈<br>
+      주소: 서울
+    </address>
+  </body>
+</html>
