@@ -1,0 +1,15 @@
+.leftmenu{
+  float:left;
+  width: 5%;
+  height: 120px;
+  overflow: hidden;
+  background-color: beige;
+  line-height: 50px;
+}
+.center{
+  float: right;
+  height: 1200px;
+  width: 94.8%;
+  border: solid 1px;
+  overflow: hidden;
+}

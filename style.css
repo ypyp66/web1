@@ -1,7 +1,18 @@
 .total{
   height: 100%;
   width: 100%;
-  background-image: url("images/wheat.jpg");
+  background-image: url("images/cloth.jpg");
+}
+.head{
+  background-image: url("images/cloth2.jpg");
+  background-size: cover;
+  color:white;
+  font-size: 32pt;
+  width: auto;
+  height: 150px;
+  text-align: center;
+  padding-top: 130px;
+  font-weight: bold;
 }
 .menu{/*메뉴만의 속성*/
   width: transparent;
@@ -28,7 +39,7 @@
   background-color: white;
   text-align: left;
   width:transparent;
-  height: 50%;
+  height: 1200px;
   overflow: hidden;
 }
 .text{
