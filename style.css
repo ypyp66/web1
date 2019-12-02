@@ -1,38 +1,42 @@
-body{
-  background-color: transparent;
-}
-#total{
+.total{
   height: 100%;
   width: 100%;
-  background-color: lightgreen;
+  background-image: url("images/wheat.jpg");
 }
 .menu{/*메뉴만의 속성*/
-  width: 100%;
-  height: 100%;
-  background-color: pink;
-  word-spacing: 100px;
+  width: transparent;
   text-align: center;
+  background-color: black;
+  word-spacing: 100px; /*글자사이의 간격 지정*/
+  border: 1px solid;
+}
+.menu ul li{/*메뉴-ul-li의 속성*/
+  background-color: black;
+  list-style: none;
+  display: inline; /*li를 가로로 바꿔줌*/
 }
 .menu a{ /*메뉴의 글자 (a)의 속성*/
-  background-color: pink;
-  color:#cc00ff;
+  color:white;
   display: inline-block; /*블럭으로 나타나게 해줌*/
-  padding: 8px; /*상하좌우 공간을 만듦*/
+  padding: 10px; /*상하좌우 공간을 만듦*/
+  text-decoration: none; /*a태그의 밑줄 제거*/
 }
 .menu a:hover{/*메뉴의 글자 (a)의 hover(마우스를 갖다댔을 때)속성*/
-  background-color:#ffccff;
-  width:10%;
+  background-color:lightgray
 }
-.nav{
-  height: 50%;
-  border: solid;
-  background: white;
-  text-align: center;
-}
-#content{
+.content{
+  background-color: white;
   text-align: left;
-  float: right;
-  width:100%;
-  height: 1920px;
-  overflow: scroll;
+  width:transparent;
+  height: 50%;
+  overflow: hidden;
+}
+.text{
+  background: black;
+  color: white;
+}
+section{
+  margin-right:500px;
+  margin-bottom:100px;
+  background:white;
 }
