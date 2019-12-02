@@ -1,53 +1,54 @@
-.total{
-  height: 100%;
-  width: 100%;
+#topMenu {
+  /* topMenu의 ID를 가진 태그의 스타일 지정*/
+  height: 30px; /* topMenu의 높이를 30px로 설정(제대로 설정 안하면 아래 내용이 깨짐)*/
+  width: 5000px;/* topMenu의 넓이를 850px로 설정(제대로 설정 안하면 브라우져 넓이가 좁아지면 깨짐)*/
+  background-color: #2d2d2d;
+}
+#topMenu ul li {
+  /* topMenu의 ID를 가진 태그 안에 <ul> 태그 안에 <li> 태그의 스타일을 지정*/
+  list-style: none; /* <li> 태그는 위의 이미지처럼 목록을 나타내는 점을 없앤다*/
+  color: white; /* 글씨 색을 흰색으로 설정*/
+  background-color: #2d2d2d; /* 배경색을 진한 회색(RGB(2D,2D,2D)으로 설정*/
+  float: left; /* <li>태그들이 왼쪽에 흐르게 설정(그러면 아래있는 내용은 오른쪽으로 옴)*/
+  line-height: 30px; /* 글씨가 가운데로 오도록 설정하기 위해 한줄의 높이를 30px로 설정*/
+  vertical-align: middle; /* 세로 정렬을 가운데로 설정(위의 line-height와 같이 설정 필요함)*/
+  text-align: center; /* 글씨 정렬을 가운데로 설정*/
+}
+#topMenu a{
+  /* topMenu 아이디를 가진 태그 안에 있는 menuLink 클래스 태그들의 스타일 설정*/
+  text-decoration: none; /*링크(<a> 태그)가 가지는 기본 꾸밈 효과(밑줄 등)을 없앰*/
+  color: white; /* 폰트색을 흰색으로 설정*/
+  display: block; /* 링크를 글씨가 있는 부분 뿐만아니라 전체 영역을 클릭해도 링크가 걸리게 설정*/
+  width: 150px; /* 메뉴링크의 넓이 설정*/
+  font-size: 15px; /* 폰트 사이즈 12px로 설정*/
+  font-weight: bold; /* 폰트를 굵게*/
+}
+#topMenu a:hover {
+  /*topMenu 아이디를 가진 태그 안에 menuLink클래스를 가진 태그에 마우스가 over되면 스타일 설정*/
+  color: red; /*글씨 색을 붉은색으로 설정*/
+  background-color: #4d4d4d; /*배경색을 조금 더 밝은 회색으로 설정*/
+}
+.hometext{
+  color:white;
+  padding-top: 300px;
+  text-align: center;
+  font-size: 120px;
+}
+.homebody{
   background-image: url("images/cloth.jpg");
 }
-.head{
-  background-image: url("images/cloth2.jpg");
-  background-size: cover;
-  color:white;
-  font-size: 32pt;
-  width: auto;
-  height: 150px;
+.mainhead{
+  color:black;
+  padding-top: 100px;
   text-align: center;
-  padding-top: 130px;
-  font-weight: bold;
+  font-size: 120px;
 }
-.menu{/*메뉴만의 속성*/
-  width: transparent;
-  text-align: center;
-  background-color: black;
-  word-spacing: 100px; /*글자사이의 간격 지정*/
-  border: 1px solid;
-}
-.menu ul li{/*메뉴-ul-li의 속성*/
-  background-color: black;
-  list-style: none;
-  display: inline; /*li를 가로로 바꿔줌*/
-}
-.menu a{ /*메뉴의 글자 (a)의 속성*/
-  color:white;
-  display: inline-block; /*블럭으로 나타나게 해줌*/
-  padding: 10px; /*상하좌우 공간을 만듦*/
-  text-decoration: none; /*a태그의 밑줄 제거*/
-}
-.menu a:hover{/*메뉴의 글자 (a)의 hover(마우스를 갖다댔을 때)속성*/
-  background-color:lightgray
-}
-.content{
+.maintext{
+  display: inline-block;
   background-color: white;
+  color:black;
+  padding-top: 200px;
+  padding-left: 500px;
   text-align: left;
-  width:transparent;
-  height: 1200px;
-  overflow: hidden;
-}
-.text{
-  background: black;
-  color: white;
-}
-section{
-  margin-right:500px;
-  margin-bottom:100px;
-  background:white;
+  font-size: 40px;
 }

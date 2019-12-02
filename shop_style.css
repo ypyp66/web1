@@ -1,15 +1,111 @@
-.leftmenu{
-  float:left;
+.leftmenu {
+  float: left;
   width: 5%;
-  height: 120px;
+  height: 150px;
   overflow: hidden;
   background-color: beige;
-  line-height: 50px;
+  line-height: 40px;
 }
-.center{
+
+.leftmenu a {
+  /*메뉴의 글자 (a)의 속성*/
+  color: black;
+  display: inline-block;
+  /*블럭으로 나타나게 해줌*/
+  padding: 10px;
+  /*상하좌우 공간을 만듦*/
+  text-decoration: none;
+  /*a태그의 밑줄 제거*/
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.center {
   float: right;
   height: 1200px;
   width: 94.8%;
   border: solid 1px;
   overflow: hidden;
+}
+
+div, span {
+  font-style: 돋움;
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+#start {
+  border: 1px solid black;
+  width: 910px;
+}
+
+#img_ctl_a {
+  position: absolute;
+  left: 30px;
+}
+
+#img_ctl_b {}
+
+table .listtbl {
+  border-right: 1px dotted #969696;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#product {
+  font-size: 14px;
+  color: #7b7b7b;
+  font-weight: bold;
+}
+
+#product_cmt {
+  font-size: 11px;
+  color: #8c8c8c;
+  padding-left: 220px;
+  font-weight: normal;
+  margin-top: -20px;
+}
+
+#search img {
+  float: right;
+}
+
+#listtbl_last {
+  padding-left: 15px;
+  border: 0px;
+}
+
+li .titlebold {
+  font-weight: bold;
+  color: #6e6e6e;
+}
+
+#line {
+  margin: 15px;
+}
+
+.minfont {
+  font-weight: bold;
+  color: #6e6e6e;
+  font-size: 11px;
+}
+
+.minmoney {
+  font-weight: normal;
+  color: #ff8c8c;
+  text-decoration: underline;
+}
+
+.number {
+  font-size: 11px;
+  text-decoration: blink;
+}
+
+.bar {
+  font-weight: normal;
+}
+
+.count {
+  font-size: 11px;
+  text-decoration: underline;
 }
