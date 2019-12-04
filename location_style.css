@@ -1,0 +1,14 @@
+.map{
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+  width:900px;
+  height:700px;
+}
+.location{
+  font-size: 23px;
+  font-weight: bold;
+}
+.location ul li{
+  list-style: none;
+}
