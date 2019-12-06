@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>연습</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div id="topMenu">
-      <ul>
-        <li><a href="home.html" target="ABC">Home</a></li>
-        <li><a href="main.html" target="ABC">About Us</a></li>
-        <li><a href="Shop.html" target="ABC">Shop</a></li>
-        <li><a href="location.html" target="ABC">Location</a></li>
-      </ul>
-      <span class=login><input type="button" onclick="window.open('login.html','window_name','width=430,height=500,location=no,status=no,scrollbars=yes')" value="로그인"></span>
-      <span> <input type="button" onclick="window.open('reg.html')" value="회원가입"> </span>
-    </div>
-    <div>
-      <iframe src="home.html" width="100%" height="1200px" name=ABC frameborder=1;></iframe>
-    </div>
-    <p><div id="disqus_thread"></div>
-<script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://https-ypyp66-github-io-web1.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></p>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>연습</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="doPopupopen()">
+
+  <div id="topMenu">
+    <ul>
+      <li><a href="home.html" target="ABC">Home</a></li>
+      <li><a href="main.html" target="ABC">About Us</a></li>
+      <li><a href="Shop.html" target="ABC">Shop</a></li>
+      <li><a href="location.html" target="ABC">Location</a></li>
+    </ul>
+    <span class=login><input type="button" onclick="window.open('login.html','window_name','width=430,height=500,location=no,status=no,scrollbars=yes')" value="로그인"></span>
+    <span> <input type="button" onclick="window.open('reg.html','window_name','width=430,height=500,location=no,status=no,scrollbars=yes')" value="회원가입"> </span>
+  </div>
+  <div>
+    <iframe src="home.html" width="100%" height="1200px" name=ABC frameborder=1;></iframe>
+  </div>
+  <p>
+    <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/5dc6fddd43be710e1d1c8820/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+  </p>
+</body>
+
 </html>

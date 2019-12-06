@@ -1,0 +1,15 @@
+body {
+  font-size:11pt;
+  padding:0;
+  margin:0;
+  text-align:
+  center;
+  background-image: url('images/cloth.jpg');
+}
+h3 {color: #85144b; font-size: 14pt; margin:10 auto; padding: 10px;}
+.contents {width: 800px; height: 760px; background-color: #d6d6d6; margin: 0 auto;}
+
+/* banner */
+.banner {position: relative; width: 500px; height: 600px; top: 10px;  margin:0 auto; padding:0; overflow: hidden;}
+.banner ul {position: absolute; margin: 0px; padding:0; list-style: none; }
+.banner ul li {float: left; width: 500px; height: 600px; margin:0; padding:0;}

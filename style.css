@@ -28,15 +28,6 @@
   color: red; /*글씨 색을 붉은색으로 설정*/
   background-color: #4d4d4d; /*배경색을 조금 더 밝은 회색으로 설정*/
 }
-.hometext{
-  color:white;
-  padding-top: 300px;
-  text-align: center;
-  font-size: 120px;
-}
-.homebody{
-  background-image: url("images/cloth.jpg");
-}
 .mainhead{
   color:black;
   padding-top: 100px;
