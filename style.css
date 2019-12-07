@@ -1,7 +1,23 @@
+@media ( max-width: 1920px ) {
+  #topMenu {
+    width: 1920px;
+  }
+  .login{
+    margin-left: 900px;
+  }
+}
+@media ( max-width: 1600px ) {
+  #topMenu {
+    width: 1600px;
+  }
+  .login{
+    margin-left: 800px;
+  }
+}
 #topMenu {
-  /* topMenu의 ID를 가진 태그의 스타일 지정*/
+
   height: 30px; /* topMenu의 높이를 30px로 설정(제대로 설정 안하면 아래 내용이 깨짐)*/
-  width: 5000px;/* topMenu의 넓이를 850px로 설정(제대로 설정 안하면 브라우져 넓이가 좁아지면 깨짐)*/
+  /*width: auto;/* topMenu의 넓이를 850px로 설정(제대로 설정 안하면 브라우져 넓이가 좁아지면 깨짐)*/
   background-color: #2d2d2d;
 }
 #topMenu ul li {
@@ -44,6 +60,4 @@
   font-size: 40px;
 }
 .login{
-  align: center;
-  margin-left: 900px;
 }
