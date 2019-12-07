@@ -1,4 +1,4 @@
-@media ( max-width: 1920px ) {
+@media ( max-width: 1920px ) { /*해상도의 가로길이가 1920이하라면*/
   #topMenu {
     width: 1920px;
   }
@@ -6,7 +6,7 @@
     margin-left: 900px;
   }
 }
-@media ( max-width: 1600px ) {
+@media ( max-width: 1600px ) { /*해상도의 가로길이가 1600이하라면*/
   #topMenu {
     width: 1600px;
   }
@@ -16,12 +16,10 @@
 }
 #topMenu {
   text-align: center;
-  height: 30px; /* topMenu의 높이를 30px로 설정(제대로 설정 안하면 아래 내용이 깨짐)*/
-  /*width: auto;/* topMenu의 넓이를 850px로 설정(제대로 설정 안하면 브라우져 넓이가 좁아지면 깨짐)*/
+  height: 30px;
   background-color: #2d2d2d;
 }
-#topMenu ul li {
-  /* topMenu의 ID를 가진 태그 안에 <ul> 태그 안에 <li> 태그의 스타일을 지정*/
+#topMenu ul li {/* topMenu의 ID를 가진 태그 안에 <ul> 태그 안에 <li> 태그의 스타일을 지정*/
   list-style: none; /* <li> 태그는 위의 이미지처럼 목록을 나타내는 점을 없앤다*/
   color: white; /* 글씨 색을 흰색으로 설정*/
   background-color: #2d2d2d; /* 배경색을 진한 회색(RGB(2D,2D,2D)으로 설정*/
@@ -43,21 +41,6 @@
   /*topMenu 아이디를 가진 태그 안에 menuLink클래스를 가진 태그에 마우스가 over되면 스타일 설정*/
   color: red; /*글씨 색을 붉은색으로 설정*/
   background-color: #4d4d4d; /*배경색을 조금 더 밝은 회색으로 설정*/
-}
-.mainhead{
-  color:black;
-  padding-top: 100px;
-  text-align: center;
-  font-size: 120px;
-}
-.maintext{
-  display: inline-block;
-  background-color: white;
-  color:black;
-  margin-top: 200px;
-  margin-left: 500px;
-  text-align: left;
-  font-size: 40px;
 }
 .audio{
   width: 300px;
